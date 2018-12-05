@@ -10,5 +10,4 @@ if response.status_code == 200:
     # print(html)
     soup = BeautifulSoup(html, "lxml")
 
-# print(soup.find_all('p'))
 print(soup.find('head'))
